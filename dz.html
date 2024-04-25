@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home-work-Js-DZ-4/2</title>
+  </head>
+  <body>
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <h2>ДЗ по Js. № 6</h2>
+
+      <div data-widget-name="menu">Виберіть жанр</div>
+
+      <!-- варіант 1 -->
+      <script>
+        const widget = document.querySelector('div[data-widget-name="menu"]');
+        console.log(widget.textContent);
+      </script>
+
+      <!-- варіант 2 -->
+      <!-- <script>
+        const widgets = document.querySelectorAll("div[data-widget-name]");
+        widgets.forEach((widget) => {
+          console.log(widget.textContent);
+        });
+      </script> -->
+    </div>
+
+    <!-- <div
+      style="
+        background-color: lavender;
+        width: 300px;
+        text-align: center;
+        margin: 150px 275px;
+        padding: 3px;
+        border-radius: 20px;
+        box-shadow: 0 0 30px -6px rgba(0, 0, 0, 0.15);
+      "
+    >
+      <h2 style="color: blue; text-align: center">Виберіть кнопку</h2>
+      <button
+        type="button"
+        id="html"
+        style="
+          color: rgb(63, 102, 3);
+          border: 1px solid blue;
+          border-radius: 7px;
+          width: 75px;
+          margin-bottom: 12px;
+        "
+      >
+        HTML
+      </button>
+      <button
+        type="button"
+        id="css"
+        style="
+          color: rgb(63, 102, 3);
+          border: 1px solid blue;
+          border-radius: 7px;
+          width: 75px;
+          margin-bottom: 12px;
+        "
+      >
+        CSS
+      </button>
+    </div>
+
+    <p id="appear" style="margin-left: 315px"></p> -->
+    <script src="./home-work-dz4.js"></script>
+    <script src=""></script>
+  </body>
+</html>
